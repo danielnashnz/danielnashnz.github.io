@@ -1,3 +1,6 @@
+---
+---
+
 # danielnashnz - Transferring NYT Wordle Stats
 
 ## How to transfer Wordle statistics to New York Times
