@@ -1,4 +1,4 @@
-# danielnashnz.github.io
+# danielnashnz - Transferring NYT Wordle Stats
 
 ## How to transfer Wordle statistics to New York Times
 ### N.B. This has not been tested on mobile browsers
