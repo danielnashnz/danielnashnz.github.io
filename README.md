@@ -49,7 +49,25 @@ e.g.
 * Select the "Console" tab
 * Type into the Console panel at the `>` or `>>` prompt:
 ```bash
-localStorage.setItem("nyt-wordle-statistics", "PASTE YOUR STATS FROM CLIPBOARD HERE")
+localStorage.setItem("nyt-wordle-statistics", PASTE_HERE!)
 ```
 
 Your stats should now be transferred.
+
+### Transferring your last game
+
+In order to see the last game you played you will need to:
+
+* Repeat the above process, but this time for the Original Wordle Site use this command in the Console:
+
+```bash
+localStorage.getItem('gameState')
+```
+
+* and on the NYT page use this command in the Console:
+
+```bash
+localStorage.setItem('nyt-wordle-state', PASTE_HERE!)
+```
+
+Your last game state should now show (after a page refresh)
