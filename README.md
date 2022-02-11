@@ -63,8 +63,8 @@ In order to see the last game you played you will need to:
 ```bash
 localStorage.getItem('gameState')
 ```
-
-* and on the NYT page use this command in the Console:
+* Copy the resulting string to the clipboard
+* On the NYT page use this command in the Console:
 
 ```bash
 localStorage.setItem('nyt-wordle-state', PASTE_HERE)
