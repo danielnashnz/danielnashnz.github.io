@@ -1,7 +1,7 @@
 # danielnashnz.github.io
 
 ## How to transfer Wordle statistics to New York Times
-### N.B. This has been tested only on PC browsers
+### N.B. This has not been tested on mobile browsers
 You will need to open the sites in your usual browser you use for playing the game.
 
 ### Find the NYT Wordle page
