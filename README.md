@@ -49,7 +49,7 @@ e.g.
 * Select the "Console" tab
 * Type into the Console panel:
 ```bash
-localStorage.setItem("statistics", "PASTE YOUR STATS FROM CLIPBOARD HERE")
+localStorage.setItem("nyt-wordle-statistics", "PASTE YOUR STATS FROM CLIPBOARD HERE")
 ```
 
 Your stats should now be transferred.
