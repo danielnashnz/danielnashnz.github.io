@@ -24,7 +24,7 @@ Now you need to open the Web Inspector for your browser:
 * Right-click on an empty part of the page with your mouse and select `Inspect` or `Inspect Element`
 * A new panel should open up with the page code in it
 * Select the "Console" tab
-* Copy/Paste or type into the Console panel:
+* Copy/Paste or type into the Console panel at the `>` or `>>` prompt:
 ```bash
 localStorage.getItem("statistics")
 ```
@@ -37,7 +37,7 @@ e.g.
  "{\"currentStreak\":16,\"maxStreak\":16,\"guesses\":{\"1\":0,\"2\":3,\"3\":9,\"4\":13,\"5\":4,\"6\":3,\"fail\":1},\"winPercentage\":97,\"gamesPlayed\":33,\"gamesWon\":32,\"averageGuesses\":4}"
 ```
 
-* Copy that set of characters, including the `"` or `'` characters, to your clipboard, for instance by using the `CTRL-C` key combination.
+* Copy *that* set of characters, including the `"` or `'` characters, to your clipboard, for instance by using the `CTRL-C` or `CMD-C` key combination.
 
 ### Transfer the stats to the New York Times
 
@@ -47,7 +47,7 @@ e.g.
 * Right-click on an empty part of the page with your mouse and select `Inspect` or `Inspect Element`
 * A new panel should open up with the page code in it
 * Select the "Console" tab
-* Type into the Console panel:
+* Type into the Console panel at the `>` or `>>` prompt:
 ```bash
 localStorage.setItem("nyt-wordle-statistics", "PASTE YOUR STATS FROM CLIPBOARD HERE")
 ```
