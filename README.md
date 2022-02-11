@@ -49,7 +49,7 @@ e.g.
 * Select the "Console" tab
 * Type into the Console panel at the `>` or `>>` prompt:
 ```bash
-localStorage.setItem("nyt-wordle-statistics", PASTE_HERE!)
+localStorage.setItem("nyt-wordle-statistics", PASTE_HERE)
 ```
 
 Your stats should now be transferred.
@@ -67,7 +67,7 @@ localStorage.getItem('gameState')
 * and on the NYT page use this command in the Console:
 
 ```bash
-localStorage.setItem('nyt-wordle-state', PASTE_HERE!)
+localStorage.setItem('nyt-wordle-state', PASTE_HERE)
 ```
 
 Your last game state should now show (after a page refresh)
