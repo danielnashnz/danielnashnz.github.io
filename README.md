@@ -29,7 +29,7 @@ Now you need to open the Web Inspector for your browser:
 localStorage.getItem("statistics")
 ```
 * A long string of characters containing your gaming stats should appear
-* ... if they do not try the other link to the original Wordle site listed above
+* (... if they do not, then try the other Original Wordle site link listed above)
 
 e.g.
 
